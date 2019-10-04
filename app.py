@@ -12,4 +12,4 @@ def ajat():
     return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname())
 
 if __name__ == "__main__":
-	app.run(host='0.0.0.0', port=1080)
+	app.run(host='nasbox', port=1080)
