@@ -12,8 +12,4 @@ def ajat():
     return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname())
 
 if __name__ == "__main__":
-<<<<<<< HEAD
 	app.run(host='192.168.100.103', port=1080)
-=======
-	app.run(host='192.168.100.103', port=1050)
->>>>>>> cfde5f30ae1ba001f7d58853a9ca9fb190e801bc
